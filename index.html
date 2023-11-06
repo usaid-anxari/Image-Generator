@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Generatore</title>
+</head>
+<body>
+<section>
+    <h1>Image Generatore</h1>
+
+    <div >
+        <label for="selectImage">Image Size:</label>
+        <select id="selectImage">
+            <option value="150x50">Small ( 100x50 ) </option>
+            <option value="200x200">Medium Squaer ( 200x200 ) </option>
+            <option value="350x150">Medium ( 350x150 ) </option>
+            <option value="400x400">Large Squaer ( 400x400 ) </option>
+            <option value="650x350">Large ( 650x350 ) </option>
+            <option value="800x600">X-Large ( 800x600 ) </option>
+            <option value="900x1000">Full hd ( 1750x1600 ) </option>
+        </select>
+    </div>
+   
+<div class="perent">
+    <label for="nameOnImage">Text On Image:</label><input type="text" id="nameOnImage" name="">
+</div>
+
+<div class="perent">
+    <label for="backgroundColor">Color Of Background:</label><input type="color" value="#2EA8E5" class="style1" name="" id="backgroundColor">
+</div>
+<div class="perent">
+    <label for="textColor">Color On Text:</label><input type="color" value="#3D6ED1" class="style1" name="" id="textColor">
+</div>
+
+<div class="container">
+    <img src="" alt="">
+    <label for="urlPath"></label><textarea name="" id="urlPath" cols="20" rows="2">Link will be Available Here</textarea>
+</div>
+</section>
+     <script src="app.js"></script>
+</body>
+</html>
